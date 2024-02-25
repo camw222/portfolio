@@ -1,0 +1,56 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255)
+}
+body {
+    background-image: url(https://e0.pxfuel.com/wallpapers/347/606/desktop-wallpaper-abstract-background-design-light-best-background-for-brochure.jpg);
+    background-size: cover;
+}
+h1 {
+    color: rgb(34, 121, 174);
+    text-align: center;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    border-style: double;
+    border-width: medium;
+    border-color: rgb(111, 156, 131);
+}
+nav {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    word-spacing: 10px;
+}
+a {
+    text-decoration: none;
+}
+a[href="index.html"] {
+    color: rgb(34, 121, 174);
+}
+a[href="projects.html"] {
+    color: rgb(34, 121, 174);
+    word-spacing: normal;
+}
+a:hover {
+    text-decoration: underline;
+}
+h2 {
+    text-shadow: 2px 2px 5px rgb(40, 66, 83);
+    text-transform: uppercase;
+}
+p {
+    color: rgb(40, 66, 83);
+}
+h3 {
+    text-transform: uppercase;
+}
+ul {
+    list-style-type: square;
+    line-height: 2;
+}
+footer {
+    font-size:small;
+    color: rgb(40, 66, 83);
+}
