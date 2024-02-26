@@ -54,3 +54,14 @@ footer {
     font-size:small;
     color: rgb(40, 66, 83);
 }
+.second-h2 {
+    text-decoration-line: overline underline;
+}
+.projects {
+    text-align: center;
+    margin: auto;
+    width: 35%;
+}
+.project-list {
+    list-style: none;
+}
