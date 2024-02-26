@@ -54,6 +54,11 @@ footer {
     font-size:small;
     color: rgb(40, 66, 83);
 }
+img {
+    border-style: dashed;
+    border-color: rgb(145, 75, 210);
+    border-width: thin;
+}
 .second-h2 {
     text-decoration-line: overline underline;
 }
