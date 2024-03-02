@@ -1,5 +1,5 @@
 * {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "DM Sans", sands-serif;
     color: rgb(255, 255, 255)
 }
 body {
@@ -7,6 +7,8 @@ body {
     background-size: cover;
 }
 h1 {
+    font-family: Tinos, serif;
+    font-weight: 700;
     color: rgb(34, 121, 174);
     text-align: center;
 }
@@ -60,13 +62,15 @@ img {
     border-width: thin;
 }
 .second-h2 {
+    text-align: center;
     text-decoration-line: overline underline;
 }
-.projects {
-    text-align: center;
-    margin: auto;
-    width: 35%;
-}
 .project-list {
-    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    background-color: plum;
+    align-content: center;
+    height: 10rem;
 }
