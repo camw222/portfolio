@@ -1,5 +1,5 @@
 * {
-    font-family: "DM Sans", sands-serif;
+    font-family: "DM Sans", sans-serif;
     color: rgb(104, 92, 92);
     box-sizing: border-box;
 }
@@ -78,10 +78,9 @@ img {
 .project-list {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content:space-around;
     background-color: rgb(126, 160, 138);
-    align-content: center;
     height: 10rem;
 }
 .contact {
