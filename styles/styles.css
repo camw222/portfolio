@@ -25,6 +25,7 @@ h1 {
 }
 h1:hover {
     font-size: 40px;
+    cursor: grabbing;
 }
 nav {
     text-align: center;
@@ -46,9 +47,19 @@ a:hover {
     text-decoration: underline;
 }
 .intro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 8%;
+    padding-right: 2%;
     font-size: 300%;
     font-weight: 700;
-    text-align: right;
+}
+.intro aside {
+    word-spacing: 1rem;
 }
 h2 {
     text-transform: uppercase;
@@ -76,10 +87,11 @@ footer {
 .contact {
     list-style: none;
 }
-i:hover {
+.contact i:hover {
     font-size: 200%;
+    cursor: pointer;
 }
-i {
+.contact i {
     transition: font-size 1s ease-in 500ms;
 }
 
