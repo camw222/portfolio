@@ -61,6 +61,12 @@ a:hover {
 .intro aside {
     word-spacing: 1rem;
 }
+.intro i:hover {
+    color: rgb(67, 98, 164);
+}
+.intro i {
+    transition: color 500ms ease-in-out 200ms;
+}
 h2 {
     text-transform: uppercase;
 }
@@ -87,14 +93,13 @@ footer {
 .contact {
     list-style: none;
 }
-.contact i:hover {
+.contact li:hover {
     font-size: 200%;
     cursor: pointer;
 }
-.contact i {
+.contact li {
     transition: font-size 1s ease-in 500ms;
 }
-
 /* Project page specific */
 img {
     border-style: dashed;
